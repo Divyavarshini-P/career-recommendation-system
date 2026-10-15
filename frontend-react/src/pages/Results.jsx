@@ -103,8 +103,7 @@ function Results() {
   };
 
   const downloadReport = async () => {
-    const API_URL = "http://127.0.0.1:8000";
-
+const API_URL = "https://career-recommendation-system-j5th.onrender.com";
     try {
       const response = await fetch(
         `${API_URL}/download-report`,

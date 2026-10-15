@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/ResumeForm.css";
 
-const API_URL = "http://127.0.0.1:8000";
-
+const API_URL = "https://career-recommendation-system-j5th.onrender.com";
 function ResumeForm() {
   const navigate = useNavigate();
 
