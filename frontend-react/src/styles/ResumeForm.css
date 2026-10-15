@@ -1,0 +1,767 @@
+/* ==========================================
+   MAIN PAGE
+========================================== */
+
+.resume-form-page {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 45px 35px 70px;
+  box-sizing: border-box;
+}
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.analyzer-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.analyzer-header-icon {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+  background: #eaf1ff;
+
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.analyzer-header h1 {
+  margin: 0 0 8px;
+
+  color: #173f73;
+
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 750;
+}
+
+.analyzer-header p {
+  margin: 0;
+
+  color: #65758b;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+
+/* ==========================================
+   TWO COLUMN LAYOUT
+========================================== */
+
+.analyzer-container {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  gap: 28px;
+
+  width: 100%;
+}
+
+
+/* ==========================================
+   MAIN CARDS
+========================================== */
+
+.analyzer-card {
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid #e1e8f0;
+
+  border-radius: 22px;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 10px 30px rgba(20, 50, 90, 0.07);
+}
+
+
+/* ==========================================
+   CARD HEADING
+
+   No 01 / 02 badges here
+========================================== */
+
+.card-heading {
+  margin-bottom: 24px;
+}
+
+.card-heading h2 {
+  margin: 0 0 7px;
+
+  color: #173f73;
+
+  font-size: 25px;
+  line-height: 1.3;
+
+  font-weight: 750;
+}
+
+.card-heading p {
+  margin: 0;
+
+  color: #718096;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* ==========================================
+   RESUME UPLOAD BOX
+========================================== */
+
+.resume-upload {
+  min-height: 230px;
+
+  border: 2px dashed #6c8ee8;
+
+  border-radius: 18px;
+
+  background: #f8faff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 25px;
+
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.resume-upload:hover {
+  background: #f1f6ff;
+
+  border-color: #2864d7;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 25px rgba(40, 100, 215, 0.08);
+}
+
+.resume-upload.selected {
+  background: #f2fcf7;
+
+  border-color: #25a36f;
+}
+
+
+/* ==========================================
+   UPLOAD ICON
+========================================== */
+
+.upload-icon {
+  font-size: 45px;
+
+  margin-bottom: 12px;
+}
+
+
+/* ==========================================
+   UPLOAD TITLE
+========================================== */
+
+.resume-upload h3 {
+  margin: 0 0 8px;
+
+  color: #1d467a;
+
+  font-size: 18px;
+
+  max-width: 90%;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+.resume-upload p {
+  margin: 0 0 18px;
+
+  color: #7a8799;
+
+  font-size: 13px;
+}
+
+
+/* ==========================================
+   BROWSE BUTTON
+========================================== */
+
+.browse-btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 11px 22px;
+
+  border-radius: 10px;
+
+  background: #2864d7;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 6px 15px rgba(40, 100, 215, 0.2);
+
+  transition: 0.2s ease;
+}
+
+.resume-upload:hover .browse-btn {
+  background: #1f57c5;
+}
+
+
+/* ==========================================
+   SELECTED FILE
+========================================== */
+
+.file-selected-box {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-top: 15px;
+
+  padding: 14px;
+
+  background: #f5f9ff;
+
+  border: 1px solid #dbe7fa;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+}
+
+.file-selected-box strong {
+  color: #173f73;
+
+  font-size: 13px;
+
+  word-break: break-word;
+}
+
+.file-selected-box small {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #718096;
+
+  font-size: 12px;
+}
+
+.file-selected-box button {
+  border: none;
+
+  background: #fff0f0;
+
+  color: #c63d3d;
+
+  padding: 8px 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  flex-shrink: 0;
+
+  transition: 0.2s ease;
+}
+
+.file-selected-box button:hover {
+  background: #ffe0e0;
+}
+
+
+/* ==========================================
+   DIVIDER
+========================================== */
+
+.divider {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin: 25px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+
+  height: 1px;
+
+  background: #e0e6ee;
+
+  flex: 1;
+}
+
+.divider span {
+  color: #8995a6;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* ==========================================
+   INPUT GROUP
+========================================== */
+
+.input-group label {
+  display: block;
+
+  color: #173f73;
+
+  font-size: 16px;
+
+  font-weight: 700;
+}
+
+.input-group p {
+  margin: 5px 0 12px;
+
+  color: #718096;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+}
+
+
+/* ==========================================
+   TEXTAREAS
+========================================== */
+
+.resume-textarea,
+.jd-textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  display: block;
+
+  resize: vertical;
+
+  border: 1px solid #d5deea;
+
+  border-radius: 13px;
+
+  padding: 15px;
+
+  background: #fbfcfe;
+
+  color: #263b56;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.resume-textarea {
+  min-height: 180px;
+}
+
+.jd-textarea {
+  min-height: 400px;
+}
+
+.resume-textarea:focus,
+.jd-textarea:focus {
+  border-color: #3975e8;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 4px rgba(57, 117, 232, 0.1);
+}
+
+.resume-textarea::placeholder,
+.jd-textarea::placeholder {
+  color: #9aa6b6;
+}
+
+
+/* ==========================================
+   CHARACTER COUNT
+========================================== */
+
+.character-count {
+  text-align: right;
+
+  margin-top: 6px;
+
+  color: #9aa4b2;
+
+  font-size: 11px;
+}
+
+
+/* ==========================================
+   JOB DESCRIPTION TITLE
+========================================== */
+
+.jd-title-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 10px;
+}
+
+.jd-title-row label {
+  margin: 0;
+}
+
+.jd-title-row span {
+  padding: 4px 9px;
+
+  border-radius: 20px;
+
+  background: #fff3e6;
+
+  color: #c56b17;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================
+   AI INFORMATION BOX
+========================================== */
+
+.ai-info {
+  display: flex;
+
+  gap: 13px;
+
+  margin-top: 18px;
+
+  padding: 16px;
+
+  border-radius: 14px;
+
+  background: #f3f7ff;
+
+  border: 1px solid #dce8ff;
+}
+
+.ai-icon {
+  font-size: 22px;
+
+  flex-shrink: 0;
+}
+
+.ai-info strong {
+  color: #24559b;
+
+  font-size: 14px;
+}
+
+.ai-info p {
+  margin: 5px 0 0;
+
+  color: #66758a;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+
+/* ==========================================
+   ERROR MESSAGE
+========================================== */
+
+.error-message {
+  max-width: 800px;
+
+  margin: 25px auto 0;
+
+  padding: 15px 18px;
+
+  display: flex;
+
+  gap: 12px;
+
+  border-radius: 12px;
+
+  background: #fff4f4;
+
+  border: 1px solid #ffcaca;
+
+  color: #b42323;
+
+  box-sizing: border-box;
+}
+
+.error-message strong {
+  font-size: 14px;
+}
+
+.error-message p {
+  margin: 4px 0 0;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+}
+
+
+/* ==========================================
+   ANALYZE BUTTON
+========================================== */
+
+.analyze-button-container {
+  text-align: center;
+
+  margin-top: 35px;
+}
+
+.analyze-button {
+  min-width: 280px;
+
+  padding: 16px 30px;
+
+  border: none;
+
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #2864d7,
+    #397cf0
+  );
+
+  color: #ffffff;
+
+  font-size: 17px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 25px rgba(40, 100, 215, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.analyze-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 30px rgba(40, 100, 215, 0.3);
+}
+
+.analyze-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.analyze-button:disabled {
+  opacity: 0.7;
+
+  cursor: not-allowed;
+}
+
+.analyze-button-container p {
+  margin-top: 10px;
+
+  color: #7b8797;
+
+  font-size: 12px;
+}
+
+
+/* ==========================================
+   LOADING SPINNER
+========================================== */
+
+.loading-spinner {
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+
+  margin-right: 8px;
+
+  border: 2px solid rgba(255, 255, 255, 0.4);
+
+  border-top-color: #ffffff;
+
+  border-radius: 50%;
+
+  animation: spin 0.8s linear infinite;
+
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 900px) {
+
+  .resume-form-page {
+    padding: 35px 25px 60px;
+  }
+
+  .analyzer-container {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .analyzer-header h1 {
+    font-size: 36px;
+  }
+
+  .jd-textarea {
+    min-height: 320px;
+  }
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 600px) {
+
+  .resume-form-page {
+    padding: 25px 18px 50px;
+  }
+
+  .analyzer-header {
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-bottom: 28px;
+  }
+
+  .analyzer-header-icon {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 14px;
+
+    font-size: 28px;
+  }
+
+  .analyzer-header h1 {
+    font-size: 28px;
+  }
+
+  .analyzer-header p {
+    font-size: 14px;
+  }
+
+  .analyzer-card {
+    padding: 20px;
+
+    border-radius: 18px;
+  }
+
+  .card-heading h2 {
+    font-size: 22px;
+  }
+
+  .resume-upload {
+    min-height: 210px;
+
+    padding: 20px;
+  }
+
+  .resume-upload h3 {
+    font-size: 16px;
+  }
+
+  .jd-textarea {
+    min-height: 280px;
+  }
+
+  .file-selected-box {
+    align-items: flex-start;
+  }
+
+  .analyze-button {
+    width: 100%;
+
+    min-width: 0;
+  }
+}

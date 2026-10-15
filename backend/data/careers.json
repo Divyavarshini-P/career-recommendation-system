@@ -1,0 +1,134 @@
+{
+  "Data Scientist": {
+    "category": "AI & Data Science",
+    "description": "Build predictive models and analyze data.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Pandas"
+    ],
+    "preferred_skills": [
+      "TensorFlow",
+      "Power BI"
+    ]
+  },
+  "Machine Learning Engineer": {
+    "category": "AI & Data Science",
+    "description": "Develop and deploy ML models.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "preferred_skills": [
+      "PyTorch",
+      "Docker"
+    ]
+  },
+  "Frontend Developer": {
+    "category": "Software Development",
+    "description": "Develop modern web interfaces.",
+    "required_skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Next.js"
+    ]
+  },
+  "Backend Developer": {
+    "category": "Software Development",
+    "description": "Develop APIs and backend systems.",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "AWS"
+    ]
+  },
+  "Full Stack Developer": {
+    "category": "Software Development",
+    "description": "Build end-to-end web applications.",
+    "required_skills": [
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "AWS"
+    ]
+  },
+  "Cloud Engineer": {
+    "category": "Cloud",
+    "description": "Manage cloud infrastructure.",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "preferred_skills": [
+      "Terraform",
+      "CI/CD"
+    ]
+  },
+  "DevOps Engineer": {
+    "category": "DevOps",
+    "description": "Automate deployment pipelines.",
+    "required_skills": [
+      "Docker",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "preferred_skills": [
+      "Terraform",
+      "AWS"
+    ]
+  },
+  "Cybersecurity Analyst": {
+    "category": "Cybersecurity",
+    "description": "Protect systems from threats.",
+    "required_skills": [
+      "Network Security",
+      "Kali Linux",
+      "OWASP"
+    ],
+    "preferred_skills": [
+      "SIEM",
+      "Metasploit"
+    ]
+  },
+  "Data Analyst": {
+    "category": "Analytics",
+    "description": "Analyze business data.",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Tableau"
+    ]
+  },
+  "UI/UX Designer": {
+    "category": "Design",
+    "description": "Design intuitive interfaces.",
+    "required_skills": [
+      "Figma",
+      "UI Design",
+      "UX Design"
+    ],
+    "preferred_skills": [
+      "Adobe XD",
+      "Photoshop"
+    ]
+  }
+}

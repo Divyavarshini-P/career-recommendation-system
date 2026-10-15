@@ -1,0 +1,122 @@
+/* =========================================================
+   ANALYZE PAGE
+   ========================================================= */
+
+.analyze-page {
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f7fb;
+  box-sizing: border-box;
+
+  /* Space from browser edges */
+  padding: 45px 35px 80px;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
+.analyze-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.analyze-header {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+
+.analyze-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+
+.analyze-icon {
+  font-size: 38px;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+
+.analyze-title-row h1 {
+  margin: 0;
+  color: #173b68;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+.analyze-title-row p {
+  margin: 14px 0 0;
+  color: #173b68;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   FORM SECTION
+   ========================================================= */
+
+.analyze-form-section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .analyze-page {
+    padding: 35px 25px 60px;
+  }
+
+  .analyze-title-row h1 {
+    font-size: 36px;
+  }
+
+  .analyze-title-row p {
+    font-size: 17px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .analyze-page {
+    padding: 30px 18px 50px;
+  }
+
+  .analyze-title-row {
+    gap: 10px;
+  }
+
+  .analyze-icon {
+    font-size: 30px;
+  }
+
+  .analyze-title-row h1 {
+    font-size: 30px;
+  }
+
+  .analyze-title-row p {
+    font-size: 16px;
+  }
+
+}

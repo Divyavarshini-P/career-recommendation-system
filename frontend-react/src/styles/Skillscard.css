@@ -1,0 +1,67 @@
+.skills-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.skills-card h3{
+
+    color:#1d3557;
+
+    margin-bottom:20px;
+
+}
+
+.skills-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+}
+
+.skill-chip{
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    color:white;
+
+    font-weight:600;
+
+    font-size:14px;
+
+}
+
+.blue{
+
+    background:#2563eb;
+
+}
+
+.red{
+
+    background:#ef4444;
+
+}
+
+.green{
+
+    background:#10b981;
+
+}
+
+.orange{
+
+    background:#f97316;
+
+}

@@ -1,0 +1,53 @@
+.dropzone{
+
+background:white;
+
+border:3px dashed #2563eb;
+
+border-radius:20px;
+
+padding:50px;
+
+text-align:center;
+
+cursor:pointer;
+
+transition:.3s;
+
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.dropzone:hover{
+
+transform:translateY(-3px);
+
+}
+
+.active{
+
+border-color:#10b981;
+
+background:#ecfdf5;
+
+}
+
+.dropzone h2{
+
+margin-bottom:10px;
+
+color:#1d3557;
+
+}
+
+.dropzone p{
+
+color:#666;
+
+}
+
+.dropzone small{
+
+color:#999;
+
+}

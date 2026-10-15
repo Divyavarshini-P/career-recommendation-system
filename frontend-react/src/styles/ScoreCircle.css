@@ -1,0 +1,75 @@
+.score-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+.circle{
+
+    position:relative;
+
+    width:170px;
+
+    height:170px;
+
+    margin:auto;
+
+}
+
+.circle svg{
+
+    transform:rotate(-90deg);
+
+}
+
+.bg{
+
+    fill:none;
+
+    stroke:#e5e7eb;
+
+    stroke-width:10;
+
+}
+
+.progress{
+
+    fill:none;
+
+    stroke:#2563eb;
+
+    stroke-width:10;
+
+    stroke-linecap:round;
+
+    stroke-dasharray:440;
+
+    transition:.8s;
+
+}
+
+.score-text{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+.score-text h1{
+
+    color:#1e3a8a;
+
+}
