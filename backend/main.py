@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -22,7 +23,9 @@ app.add_middleware(
         "http://127.0.0.1:5174",
 
         "http://localhost:5175",
-        "http://127.0.0.1:5175"
+        "http://127.0.0.1:5175",
+
+        "https://career-recommendation-system-six.vercel.app"
     ],
 
     allow_credentials=True,
